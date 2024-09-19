@@ -44,7 +44,7 @@ This quickstart contains examples of:
 ## Running the template
 
 ```bash
-git clone https://github.com/clerk/clerk-astro-cloudflare-quickstart
+git clone https://github.com/jeremy-clerk/clerk-astro-cloudflare-quickstart
 ```
 
 To run the example locally, you need to:
