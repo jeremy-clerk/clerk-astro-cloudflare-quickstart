@@ -7,3 +7,4 @@ compatibility_date = '2024-09-02'
 PUBLIC_CLERK_PUBLISHABLE_KEY = "pk_test_<your_publishable_key_here>"
 PUBLIC_CLERK_SIGN_IN_FORCE_REDIRECT_URL= "/protected"
 PUBLIC_CLERK_SIGN_IN_URL="/sign-in"
+PUBLIC_CLERK_SIGN_UP_URL="/sign-up"
