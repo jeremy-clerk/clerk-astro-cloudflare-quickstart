@@ -1,0 +1,18 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import UserInfo from "../../components/UserInfo.tsx";
+---
+
+<SiteLayout title="Clerk + Astro">
+    <div class="flex flex-col items-center justify-center pt-16">
+    <div class="flex p-16 shadow rounded-md flex-col items-center gap-6">
+        <UserInfo client:load/>
+        <div class="text-xl">
+            This is a protected route!
+        </div>
+        <div class="text-sm">
+            You can't see this page unless you're signed in.
+        </div>
+    </div>
+    </div>
+</SiteLayout>

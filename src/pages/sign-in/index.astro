@@ -1,0 +1,10 @@
+---
+import SiteLayout from "../../layouts/SiteLayout.astro";
+import { SignIn as SignInComponent } from "@clerk/astro/components";
+---
+
+<SiteLayout title="Clerk + Astro">
+  <div class="flex flex-col justify-center items-center pt-16">
+    <SignInComponent forceRedirectUrl={"/dashboard"} />
+  </div>
+</SiteLayout>
