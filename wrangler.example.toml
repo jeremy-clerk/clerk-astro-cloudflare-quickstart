@@ -1,7 +1,14 @@
 compatibility_flags = [ "nodejs_compat_v2" ]
-pages_build_output_dir = './dist'
-name = 'clerk-astro-cloudflare-quickstart'
+name = 'clerk-astro-cf-quickstart'
+main = "./dist/_worker.js/index.js"
 compatibility_date = "2025-08-15"
+
+[assets]
+binding = "ASSETS"
+directory = "./dist"
+
+[observability]
+enabled = true
 
 [vars]
 PUBLIC_CLERK_PUBLISHABLE_KEY = "pk_test_<your_publishable_key_here>"
