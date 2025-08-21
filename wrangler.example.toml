@@ -1,7 +1,7 @@
 compatibility_flags = [ "nodejs_compat_v2" ]
 pages_build_output_dir = './dist'
 name = 'clerk-astro-cloudflare-quickstart'
-compatibility_date = '2024-09-02'
+compatibility_date = "2025-08-15"
 
 [vars]
 PUBLIC_CLERK_PUBLISHABLE_KEY = "pk_test_<your_publishable_key_here>"
